@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9C0C0"
+    android:orientation="vertical"
+    tools:context=".singup">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:textColor="#ba7967"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="@font/janna"
+        android:text="للتسجيل"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/inputusername"
+        android:layout_width="381dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/whitle"
+        android:drawableRight="@drawable/ic_baseline_person"
+        android:fontFamily="@font/janna"
+        android:hint="أسم المستخدم"
+        android:paddingStart="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="100dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitle"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:fontFamily="@font/janna"
+        android:hint="الايميل    "
+        android:paddingStart="20dp"
+        android:paddingRight="140dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/inputpassword"
+        android:layout_width="379dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitle"
+        android:drawableRight="@drawable/ic_baseline"
+        android:fontFamily="@font/janna"
+        android:hint="الرمز السري"
+        android:paddingStart="20dp"
+        android:paddingRight="100dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/inputpassword2"
+        android:layout_width="383dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitle"
+        android:drawableRight="@drawable/ic_baseline"
+        android:fontFamily="@font/janna"
+        android:hint="إعادة كتابة الرمز السري"
+        android:paddingStart="20dp"
+        android:paddingRight="60dp"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="315dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:checked="true"
+                android:fontFamily="@font/janna"
+                android:text="O" />
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/janna"
+                android:text="A" />
+
+            <RadioButton
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/janna"
+                android:text="B" />
+
+            <RadioButton
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/janna"
+                android:text="AB" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/janna"
+            android:text="أختيارك:"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttond"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded"
+            android:fontFamily="@font/janna"
+            android:text="تأكيد فصيلة الدم"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttond2"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded"
+            android:fontFamily="@font/janna"
+            android:text="تسجيل الأن"
+            android:textColor="#FFFDFD"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
