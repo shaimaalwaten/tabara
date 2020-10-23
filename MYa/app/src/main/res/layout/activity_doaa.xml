@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9C0C0"
+    android:orientation="vertical"
+    tools:context=".doaa">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="86dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/lofoo" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/janna"
+        android:text="أدعية للمرضى"
+
+        android:textColor="#ba7967"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="قال رسول الله: (بسمِ اللهِ ثلاثًا وقُلْ سبْعَ مرَّاتٍ: أعوذُ باللهِ وقدرتِه مِن شرِّ ما أجِدُ وأُحاذِرُ)"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="(بسمِ اللَّهِ الَّذي لا يضرُّ معَ اسمِهِ شيءٌ في الأرضِ ولَا في السَّماءِ، وَهوَ السَّميعُ العليمُ ثلاثَ مرَّاتٍ) "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="أسأل الله العظيم رب العرش العظيم أن يشفيكِ وسائر مرضى المسلمين "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="اللهمّ إنّا نسألك بكلّ اسمٍ لك أن تشفيه "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9C0C0"
+    android:orientation="vertical"
+    tools:context=".benefitss" >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="148dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/lofoo" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/janna"
+        android:text="لماذا نتبرع؟"
+
+        android:textColor="#ba7967"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="1-تحسين التدفق بالدم"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="2- اكتشاف وجود امراض خطيرة"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="3-يساعد على زيادة كريات الدم"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/janna"
+        android:padding="10dp"
+        android:text="4-ومن أهم الاسباب هو مساعدة مريض."
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/janna"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="وهناك بالطبع الكثير , يمكنكم التطلع عليهم بموقع وزارة الصحة"
+        android:textColor="#ba7967"
+        android:textSize="15dp" />
+</LinearLayout>

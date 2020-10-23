@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9C0C0"
+    android:orientation="vertical"
+    tools:context=".tawasel">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="428dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/lofoo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/janna"
+        android:text="للتواصل مع مؤسس تبرع : "
+        android:textColor="#ba7967"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/emailme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="emailbtm"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_email_24" />
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+        <ImageView
+            android:id="@+id/callme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_phone_forwarded_24" />
+
+    </LinearLayout>
+
+</LinearLayout>
